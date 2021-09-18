@@ -8,29 +8,30 @@
 #include <math.h>
 
 // Results:
-// Duron 750Mhz - 1.505072 seconds 
+// Duron 750Mhz - 0.094477 seconds
 
 int main()
 {
 
 	clock_t start = clock();
 	
-	float result = 0;
+	uint32_t result = 0;
 
 	for (uint32_t i=1; i<10000001; i++)
 	{
-		result = sqrt(i);
+		result++;
 	}
 		
 	clock_t end = clock();
 	double execution_time = (double)(end - start) / CLOCKS_PER_SEC;
 	
 	printf("******************\n");
-	printf("SQRT - C Version\n");
-	printf("Program that calculates square roots of numbers from 1 to 10000000 (10 millions)\n");
+	printf("INC - C Version\n");
+	printf("Program that increment one variable 10000000 times (10 millions)\n");
 	printf("Execution time: \n%f\n", execution_time);
 	printf("******************\n");
 
 	return 0;
 	
 }
+
