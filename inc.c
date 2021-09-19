@@ -9,6 +9,7 @@
 
 // Results:
 // Duron 750Mhz - 0.094477 seconds
+// Intel® Core™ i7-3770 3.40 GHz (using only one thread)- 0.020000 seconds
 
 int main()
 {

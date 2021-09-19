@@ -3,6 +3,7 @@
 
 # Results:
 # Duron 750Mhz - 24.5478720665 seconds 
+# Intel® Core™ i7-3770 3.40 GHz (using only one thread)- 1.920609712600708 seconds
 
 import time
 import math
