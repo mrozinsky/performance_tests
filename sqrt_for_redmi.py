@@ -9,13 +9,14 @@ import time
 import math
 
 start = time.time()
-for i in range(1, 10000001):
-	tmp = math.sqrt(i)
+for j in range (1, 11):
+	for i in range(1, 100000001):
+		tmp = math.sqrt(i)
 
 end = time.time()
 
 print("******************");
 print("SQRT - Python Version");
-print("Program that calculates square roots of numbers from 1 to 10000000 (10 millions)");
+print("Program that calculates square roots of numbers from 1 to 1000000000 (1000 millions)");
 print("Execution time: \n" + str(end - start)) 
 print("******************");
