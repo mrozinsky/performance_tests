@@ -4,6 +4,7 @@
 # Results:
 # Duron 750Mhz - 11.7300488949 seconds
 # Intel® Core™ i7-3770 3.40 GHz (using only one thread)- 0.9770002365112305 seconds
+# Intel Core 2 Duo E4500 2.20 GHz (using only one thread) - 1.8750531673431396 seconds
 
 import time
 import math
