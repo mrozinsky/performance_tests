@@ -7,13 +7,6 @@
 #include <stdint.h> // needed for uint32_t
 #include <math.h>
 
-// Results:
-// Duron 750Mhz - 0.094477 seconds
-// Intel® Core™ i7-3770 3.40 GHz (using only one thread)- 0.020000 seconds
-// Intel Core 2 Duo E4500 2.20 GHz (using only one thread) - 0.046000 seconds
-// Intel(R) Core(TM) Duo T2400 1.83GHz (using only one thread) - 0.037926 seconds 
-
-
 int main()
 {
 
