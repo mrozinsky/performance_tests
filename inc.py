@@ -13,7 +13,7 @@ end = time.time()
 
 print("******************");
 print("INC - Python Version");
-print("Program that increment one variable 10000000 times (10 millions)\n");
+print("Program that increment one variable 10000000 times (10 millions)");
 print("Execution time: \n" + str(end - start)) 
 print("******************");
 
